@@ -1,0 +1,307 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+New – Repository name JSON
+Public, add a readme file
+Create
+ 5. Клонировать репозиторий JSON на локальный компьютер.
+code – https – copy – переходим в gitbush
+cd git_test
+git clone https://github.com/VeronikaAsad/JSON.git
+ 6. Внутри локального JSON создать файл "new.json".
+cd JSON
+touch new.json
+ls -la
+ 7. Добавить файл под гит.
+git status
+git add .
+git status
+ 8. Закоммитить файл.
+git commit –m "add new.json"
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+ 10. Отредактировать содержание файла "new.json" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+i- insert
+{
+"first_name" : "Veronika",
+"last_name" : "Asadchaya",
+"age" : 33,
+"group": 25,
+"course": "QA",
+"pet": "cat",
+"salary": "1000"
+}
+Esc :wq
+ 11. Отправить изменения на внешний репозиторий.
+git status
+git add .
+git status
+git commit –m "add information about me in new.json"
+git push
+ 12. Создать файл preferences.json
+touch preferences.json 
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+vim preferences.json 
+i- insert
+{
+"favorite_film" : "Gladiator",
+"favoriteTVseries " : "The big bang theory ",
+"favorite _food" : " fruit ",
+"favorite_time_of_ the_year" : "summer ", 
+"country": "Italy"
+}
+Esc :wq
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+touch skills.json 
+vim skills.json
+i- insert
+{
+"soft_skills " : ["attention", "communicability", "ambitions"],
+"hard_skills " : ["testing_theories", "Gitbush","Github", "Postman", "SQL", " Jmeter", "Devtools"]
+
+}
+Esc :wq
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git add .
+git status
+git commit –m "add information about me and about my skills"
+git push
+ 16. На веб интерфейсе создать файл bug_report.json.
+Add file – Create new file
+bug_report.json
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+"id" : 1,
+"summary " : "no redirection to the CoffeeBerry Facebook account via tapping on the  icon Facebook ",
+"severity" : "minor",
+"description" : "redirecting to the CoffeeBerry  VK  account instead of Facebook by clicking on the Facebook icon", 
+"steps to reproduce ": ["open Coffee Minsk app", 
+"find  CoffeeBerry  coffee shops in the catalog",
+"open  CoffeeBerry  coffee shop's  info page",
+"tap on Facebook icon"],
+"reproducibility" : "always",
+"reproduced on" : "all devices",
+" actual result " : "user is redirected to the VK profile of coffee shop ",
+"expected result" : "user is redirected to the Facebook profile of coffee shop"
+
+}
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit  changes
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+git fetch
+git pull
+
+
+
+
+
+XML
+21. Создать внешний репозиторий c названием XML.
+New – Repository name ХML
+Public, add a readme file
+Create
+ 22. Клонировать репозиторий XML на локальный компьютер.
+code – https – copy – переходим в gitbush
+cd git_test
+git clone https://github.com/VeronikaAsad/XML.git
+ 23. Внутри локального XML создать файл "new.xml".
+cd XML
+touch new.xml
+ls -la
+ 24. Добавить файл под гит.
+git add .
+git status
+ 25. Закоммитить файл.
+git commit –m "add new.xml"
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+ 27. Отредактировать содержание файла "new.xml" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+i- insert
+<xml>
+<student>
+<first_name> Veronika</first_name>
+<last_name> Asadchaya</last_name>
+<age> 33</age>
+<group> 25</group>
+<course>QA</course>
+<pet>cat</pet>
+<salary>1000</salary>
+</student>
+Esc :wq
+ 28. Отправить изменения на внешний репозиторий.
+git status
+git add .
+git status
+git commit –m "add information about me in new.json"
+git push
+ 29. Создать файл preferences.xml
+touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+vim preferences.xml 
+i- insert
+<xml>
+<student>
+<favorite_film> Gladiator</favorite_film>
+<favoriteTVseries> The big bang theory </favoriteTVseries>
+<favorite _food> fruit</favorite _food>
+<favorite_time_of_ the_year> summer</favorite_time_of_ the_year>
+<country>Italy</country>
+</student>
+Esc :wq
+
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+touch skills.xml
+vim skills.xml
+i- insert
+<xml>
+<student>
+<soft_skills> attention, communicability, ambitions<soft_skills>
+<hard_skills> testing_theories, Gitbush, Github, Postman, SQL, Jmeter, Devtools<hard_skills>
+</student>
+
+Esc :wq
+
+ 32. Сделать коммит в одну строку.
+git status
+git commit –am "add information about me and about my skills"     --- для файла, который был создан, но после add Изменен
+(либо отдельно git add . + git commit –m “add information about me and about my skills”)
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Add file – Create new file 
+bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+<xml>
+<bugreport>
+<id>1</id>
+<summary>no redirection to the CoffeeBerry Facebook account via tapping on the icon Facebook</summary >
+<severity>minor</severity>
+<description>redirecting to the CoffeeBerry  VK  account instead of Facebook by clicking on the Facebook icon</description>
+<steps_to_reproduce> 
+open Coffee Minsk app, 
+find  CoffeeBerry  coffee shops in the catalog,
+open  CoffeeBerry  coffee shop's  info page,
+tap on Facebook icon
+</steps_to_reproduce>
+<reproducibility>always</reproducibility>
+<reproduced_on> all devices</reproduced_on>
+<actual_result>user is redirected to the VK profile of coffee shop</actual_result>
+<expected_result>user is redirected to the Facebook profile of coffee shop</expected_result>
+<bugreport>
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+ 38. Синхронизировать внешний и локальный репозиторий XML
+git fetch
+git pull
+
+
+
+
+
+TXT
+ 1. Создать внешний репозиторий c названием TXT.
+New – Repository name TXT
+Public, add a readme file
+Create
+ 2. Клонировать репозиторий TXT на локальный компьютер.
+code – https – copy – переходим в gitbush
+cd git_test
+git clone https://github.com/VeronikaAsad/TXT.git
+ 3. Внутри локального TXT создать файл "new.txt".
+cd TXT
+touch new.txt
+ls -la
+4. Добавить файл под гит.
+git add .
+git status
+ 5. Закоммитить файл.
+git commit  –m "add new.txt"
+ 6. Отправить файл на внешний GitHub репозиторий.
+git push
+ 7. Отредактировать содержание файла "new.txt" - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+vim new.xml
+i- insert
+First name: Veronika
+Last name: Asadchaya
+Age: 33
+Group: 25
+Course: QA
+Pet: cat
+Salary: 1000
+
+Esc :wq
+ 8. Отправить изменения на внешний репозиторий.
+git add .
+git status
+git commit –m "add information about me in new.txt"
+git push
+ 9. Создать файл preferences.txt
+touch preferences.txt
+ 10. В файл preferences.txt добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+vim preferences.txt
+i- insert
+
+Favorite film: Gladiator
+FavoriteTVseries: The big bang theory 
+Favorite  food : fruit 
+Favorite time of the year: summer  
+Country: Italy
+
+Esc :wq
+
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+touch skills.txt
+vim skills.txt
+i- insert
+
+Soft skills: attention, communicability, ambitions
+Hard skills: testing theories, Gitbush, Github, Postman, SQL, Jmeter, Devtools
+
+
+Esc :wq
+
+ 12. Сделать коммит в одну строку.
+git status
+git commit  –am "add information about me and about my skills"   ---- для файла, который был создан, но после add изменен
+(либо отдельно git add . + git commit –m “add information about me and about my skills”)
+ 13. Отправить сразу 2 файла на внешний репозиторий.
+git push
+ 14. На веб интерфейсе создать файл bug_report.txt.
+Add file – Create new file
+bug_report.txt
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+ID:1
+Summary: 
+The selected filter is not applied when trying to search by name in the search bar at the same time.
+Severity (Blocker, Critical, Major, Minor, Trivial): Major
+Description:
+The selected filter is not applied when trying to search by name in the search line at the same time, the search is performed in all coffee shops, and not in the filtered list. The filter indicator turns yellow to indicate that a filter is being applied.
+
+Reproducibility: Always.
+Reproduced on: All devices.
+Steps to reproduce:
+1) Open app 'Coffee Shop';
+2) Tap on the icon Filter;
+3) Tap on the any filter parameters (Ex. 'Бонус/скидка');
+4) Click on the checkmark in the corner of the Filter;
+5) Enter any letter in the search bar.
+Actual result:
+Searching the entire list of coffee shops.
+Expected result:
+Searching through a filtered list of coffee shops.
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+ 18. Синхронизировать внешний и локальный репозиторий TXT
+git fetch
+git pull
