@@ -8,12 +8,6 @@ Pass: 123
 DB: qa_students_1
 Table: students
 
-Таблица пользователей базы данных qa_students_1 https://docs.google.com/spreadsheets/d/1Gmu2MHj3xTzmwj7TB1EoaFrFM0JK2nOQMkOs2OvuRMY/edit?usp=sharing
-
-Создать .sql файл в котором под каждой командой напишите sql запрос который выполнит команду.
-
-.sql файл выгружайте на гит и скидывайте ссылки на проверку.
-
  1. Вывести все поля и все строки.
 select * from students;
  2. Вывести всех студентов в таблице
